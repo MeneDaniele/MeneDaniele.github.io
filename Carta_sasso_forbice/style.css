@@ -1,0 +1,85 @@
+:root {
+    --blue:#5a8eea;
+    --dark-blue: #168bed;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    background-color: var(--blue);
+    align-items: center;
+    justify-content: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+.scores-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+.scores-container > p {
+    background-color: #a8a2a2;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.scores-container > p > span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.btn-container > button {
+    background-color: var(--blue);
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-container > button:hover {
+    background-color: var(--dark-blue);
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.details {
+    text-align: center;
+}
+.result {
+    display: inline-block;
+    color:white;
+    padding: 10px 20px;
+    background-color: black;
+}
+
+.win {
+    background-color: green;
+}
+.lose {
+    background-color: red;
+}
+.draw {
+    background-color: #b8b5b5;
+}
+
