@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+article button {
+    cursor: pointer;
+}
+
+article img {
+    max-width: 100px
+}
+canvas {
+    border: 1px solid black;
+}
+
+a{
+    background-color: green;
+    padding:0.5rem 1rem;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#text-selection {
+    display: none;
+}

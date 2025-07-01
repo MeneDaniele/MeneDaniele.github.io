@@ -1,0 +1,51 @@
+div1 {
+    background-color: red;
+    width: 250px;                    /*Larghezza scritta*/
+
+    border-style: solid;            /*Tipo Bordo*/
+    border-width: 5px;              /*Spessore Bordo*/
+    border-color: blueviolet;       /* Colore Bordo */
+
+    border: 5px solid blue;         /*Sintassi alternativa per il bordo*/
+  
+    border-top-style: dotted;         /*Tipo Bordo*/
+    border-top-width: 5px;              /*Spessore*/
+    border-top-color: blue;              /*Spessore*/
+  
+    border-bottom-style: ridge;         /*Tipo Bordo*/
+    border-bottom-width: 5px;              /*Spessore*/
+    border-bottom-color: green;              /*Spessore*/
+   
+    border-left-style: ridge;         /*Tipo Bordo*/
+    border-left-width: 5px;              /*Spessore*/
+    border-left-color: yellow;              /*Spessore*/
+   
+    border-right-style: ridge;         /*Tipo Bordo*/
+    border-right-width: 5px;              /*Spessore*/
+    border-right-color: lightcoral;              /*Spessore*/
+
+    border-top: ridge 5px yellow;         /*Sintassi alternativa per il bordo*/
+    padding: 20px;                  /*Spazio interno (tra il contenuto e il bordo)*/
+
+    margin: 50px;                   /*Spazio esterno (tra il bordo e il resto della pagina)*/
+
+
+}
+.other-margin {
+    margin: 80px;
+    }
+    /* 
+p {
+    color:red
+}
+div > p {
+    color:blue
+} */
+
+div ~ p {
+    color:violet
+}
+
+div + p {
+    color:orange
+}

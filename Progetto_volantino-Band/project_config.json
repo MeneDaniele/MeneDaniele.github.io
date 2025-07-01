@@ -1,0 +1,10 @@
+   {
+     "name": "my-project",
+     "version": "1.0.0",
+     "scripts": {
+       "start": "browser-sync start --server --files 'Progetto/**/*'"
+     },
+     "devDependencies": {
+       "browser-sync": "^2.27.7"
+     }
+   }

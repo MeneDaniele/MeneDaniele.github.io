@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EsNasaApi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!--    <script type="text/javascript">-->
+    <script src="script.js" defer></script>
+<!--  <script src="scriptProvaOk.js" defer></script>-->
+<!--  <script src="scriptprova1.js" defer></script>-->
+<!--  <script src="scriptProva.js" defer></script>-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="headerPictures"><h1>NASA API</h1></header>
+<main>
+    <section class="astronomy-picture">
+        <h2>Astronomy Picture of the Day</h2>
+        <article id="main-picture">
+            <h2>Loading data...</h2>
+<!--            <img src="mock/Pelican_Almeida_960.jpg">-->
+<!--            &lt;!&ndash;            <img src="https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif">&ndash;&gt;-->
+<!--            <div class="text-container">-->
+<!--                <h3>GRB 221009A</h3>-->
+<!--                <p>Gamma-ray burst GRB 221009A likely signals the birth of a new black hole, formed at the core of a collapsing star long ago in the distant universe. The extremely powerful blast is depicted in this animated gif constructed using data from the Fermi Gamma Ray Space Telescope. ...</p>-->
+<!--                <p>copyright: Göran Strand</p>-->
+<!--            </div>-->
+        </article>
+    </section>
+
+    <!-- DATI DA MARTE -->
+    <div class="mars-input">
+    <div id="mars-today"></div>
+    <div id="mars-data" class="mars-chart"> </div>
+
+    </div>
+
+    <!-- PREVIOUS IMAGES -->
+    <section>
+        <h2>Previous images</h2>
+        <div class="pictures-container">
+            <h2>Loading data...</h2>
+
+            <!--            <div class="picture-container">-->
+<!--                <img src="https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif">-->
+<!--            </div>-->
+<!--            <div class="picture-container">-->
+<!--                <img src="https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif">-->
+<!--            </div>-->
+<!--            <div class="picture-container">-->
+<!--                <img src="https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif">-->
+<!--            </div>-->
+<!--            <div class="picture-container">-->
+<!--                <img src="https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif">-->
+<!--            </div>-->
+<!--            <div class="picture-container">-->
+<!--                <img src="https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif">-->
+<!--            </div>-->
+<!--            <div class="picture-container">-->
+<!--                <img src="https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif">-->
+<!--            </div>-->
+        </div>
+    </section>
+
+
+
+
+
+    <!-- MODALE -->
+    <div id="picture-details-container">
+        <div class="picture-details">
+            <button id="close-button"> X </button>
+            <h2 id="picture-title">Titolo</h2>
+            <img id="picture-img" src="mock/Pelican_Almeida_960.jpg" alt="">
+            <p id="picture-description">Descrizione</p>
+            <p id="picture-copyright">Copyright</p>
+        </div>
+    </div>
+</main>
+</body>
+</html>
+
+<!--{-->
+<!--"copyright": "\nGöran Strand\n",-->
+
+<!--"date": "2022-10-15",-->
+<!--"explanation": "Gamma-ray burst GRB 221009A likely signals the birth of a new black hole, formed at the core of a collapsing star long ago in the distant universe. The extremely powerful blast is depicted in this animated gif constructed using data from the Fermi Gamma Ray Space Telescope. Fermi captured the data at gamma-ray energies, detecting photons with over 100 million electron volts. In comparison visible light photons have energies of about 2 electron volts. A steady, high energy gamma-ray glow from the plane of our Milky Way galaxy runs diagonally through the 20 degree wide frame at the left, while the transient gamma-ray flash from GRB 221009A appears at center and then fades. One of the brightest gamma-ray bursts ever detected GRB 221009A is also close as far as gamma-ray bursts go, but still lies about 2 billion light-years away. In low Earth orbit Fermi’s Large Area Telescope recorded gamma-ray photons from the burst for more than 10 hours as high-energy radiation from GRB 221009A swept over planet Earth last Sunday, October 9.",-->
+<!--"hdurl": "https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif",-->
+<!--"media_type": "image",-->
+<!--"service_version": "v1",-->
+<!--"title": "GRB 221009A",-->
+<!--"url": "https://apod.nasa.gov/apod/image/2210/LAT_221009A_burst_opt_1080.gif"-->
+<!--},-->

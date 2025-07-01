@@ -1,0 +1,31 @@
+body {
+    background-color: lightcoral;
+}
+a {
+    background-color:green;
+    color: white;
+    padding: 0.2rem 1rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#output {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.saved-item-conatainer img {
+    height: 10rem;
+    width: 10rem;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*padding: 1rem;*/
+    /*border-bottom: 1px solid black;*/
+}
+
+canvas {
+    border: 1px solid black;
+}

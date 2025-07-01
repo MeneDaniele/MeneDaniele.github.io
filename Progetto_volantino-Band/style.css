@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100..900&family=Rubik+Moonrocks&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: #141a26;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+
+
+}
+body > header {
+    background-color: #0d0d0d;
+}
+h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 60px;
+    word-break: break-word;
+    color: #8679d9;
+    text-transform:uppercase;
+}
+h2, h3 {
+    color: #a688e5;
+
+}
+span {
+    color: yellow;
+}
+h3 span {
+    color:white
+}
+h3 , h3 > a {
+    margin: 0;
+    color: #a688e5;
+    padding: 25px;
+    background: none;
+}
+h3 , h3 > a:hover {
+background: none;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: white;
+}
+p em {
+    font-weight: bold;
+}
+p mark {
+    background-color: #8679d9;
+    padding: 6px 12px;
+}
+img {
+    width:100%;
+}
+
+main {
+    background-color: black;
+    max-width: 650px;
+    /* border-width: 5px 10px 5px 10px;
+    border-style: solid;
+    border-color: red; */
+    margin: 50px auto;
+
+}
+main > header{
+    text-align: center;
+}
+.testo-spaziato {
+    letter-spacing: 5px;
+}
+
+ul {
+    color: #8679d9;
+    line-height: 30px;
+    list-style-position: inside;
+}
+ul > li {
+    /*background-color: red;*/
+    /*list-style-type: none;*/
+    padding-left: 10px;
+}
+li > span{
+color: white;
+}
+li:nth-child(3) {
+    background-color: gold;
+}
+li:nth-child(odd) {
+    background-color: aqua;
+}
+li:first-child {
+    background-color: #373e4a;
+}
+li::marker {
+    color: #8679d9;
+    content: "\2605 \2002";
+}
+
+#my-birthday {
+    background-color: gold;
+}
+a {
+    background-color: #5943d6;
+    padding:8px 15px;
+    color: white;
+}
+a:hover {
+    background-color: #5833a6;
+}
+.prenotazione {
+    background-color: #8679d9;
+}
+.prenotazione > p:first-child {
+    background-color: #0d0d0d;
+    letter-spacing: 6px;
+    word-spacing: 20px;
+}
+.prenotazione > p {
+    padding: 25px 25px;
+}
+section {
+    background-color: #291b5e;
+    color: white;
+    padding: 25px;
+    margin: 50px;
+}
+.quote {
+    border-radius: 25px 0;
+}
+blockquote p {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-left: 5px solid #5833a6;
+}
+footer {
+    background-color: #4d4d9c;
+    text-align: right;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+    padding: 30px;
+}
+.citazione::before{
+    content: "\201c";
+    font-size: 40px;
+}.citazione::after{
+    content: "\201c";
+}

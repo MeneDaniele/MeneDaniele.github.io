@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme Generator</title>
+  <script src="script.js"defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Meme Generator</h1>
+  <button onclick="window.location.href='../index.html'">Torna alla pagina principale</button>
+
+</header>
+
+<main>
+
+  <section>
+
+    <article id="image-selection">
+      <h2>1)Selezione immagine</h2>
+      <button>
+        <img src="img/cat.jpg" alt="Immagine 1">
+      </button>
+      <button>
+        <img src="img/dog.jpg" alt="Immagine 1">
+      </button>
+      <button>
+        <img src="img/lego.jpg" alt="Immagine 1">
+      </button>
+      <button>
+        <img src="img/llama.jpg" alt="Immagine 1">
+      </button>
+      <p>Oppure scegli una foto</p>
+      <input type="file" id="file-upload">
+
+      <button id="forward" disabled>Prosegui</button>
+    </article>
+
+    <article id="text-selection">
+    <h2>2)Inserisci il testo</h2>
+    <span>Scritta superiore:</span><br/>
+    <input type="text" id="top-line"><br/>
+    <span>Scritta inferiore:</span><br/>
+    <input type="text" id="bottom-line">
+    <a id="download" download="meme.jpeg">Download</a>
+    <button id="back" disabled>Indietro</button>
+    </article>
+
+  </section>
+
+    <canvas id="canvas" width="500" height="500"></canvas>
+</main>
+</body>
+</html>
